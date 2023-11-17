@@ -1,0 +1,39 @@
+
+ol {
+    display: inline-block;
+    background-color: pink;
+    margin: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid rgb(48, 30, 151);
+    border-radius: 4px;
+    
+}
+
+ol li {
+    counter-increment: my-counter;
+}
+  
+ol li::before {
+    content: counter(my-counter) ". ";
+    padding-left: 5px;
+    
+    padding-right: 15px;
+}
+
+li{
+    font-size: 35px;
+    margin-top: 20px;
+    padding-left: 30px;
+    background-color: rgb(180, 91, 91);
+    color: white;
+    font-weight: 700;
+    padding-right: 300px;
+    margin-right: 50px;
+    list-style-type: none;
+}
+
+span {
+    background: brown;
+}
+
